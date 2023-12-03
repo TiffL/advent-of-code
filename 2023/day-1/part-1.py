@@ -19,6 +19,7 @@ def get_calibration_value(line):
 
     return 10 * convert_to_num(digits[0]) + convert_to_num(digits[len(digits)-1])
 
+
 def main():
     input_file = "input.txt"
     
