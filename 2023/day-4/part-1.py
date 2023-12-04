@@ -1,4 +1,4 @@
-#--- Day 4: Scratchcards ---
+# --- Day 4: Scratchcards ---
 import re
 
 def get_match_scores(line):
@@ -16,7 +16,6 @@ def get_match_scores(line):
 
 def main():
     INPUT_FILE = "input.txt"
-    symbol_locations = {}
 
     with open(INPUT_FILE) as file:
         result = sum([get_match_scores(line) for line in file])

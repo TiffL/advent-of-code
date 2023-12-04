@@ -1,4 +1,4 @@
-#--- Day 4: Scratchcards ---
+# --- Day 4: Scratchcards ---
 import re
 
 def get_match_scores(file):
@@ -31,7 +31,6 @@ def get_match_scores(file):
 
 def main():
     INPUT_FILE = "input.txt"
-    symbol_locations = {}
 
     with open(INPUT_FILE) as file:
         result = get_match_scores(file)
